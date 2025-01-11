@@ -1,0 +1,132 @@
+.editor-styles-wrapper,
+.editor-styles-wrapper .editor-writing-flow,
+.editor-styles-wrapper p,
+.editor-styles-wrapper .wp-block p {
+  font:    16px / 24px "Source Sans Pro", Helvetica, Arial, Verdana, sans-serif;
+  word-spacing: normal;
+}
+.editor-styles-wrapper .wp-block-cover .wp-block-cover-text,
+.editor-styles-wrapper .wp-block-cover h2 {
+  font:   600 18px / 24px "Montserrat", Helvetica, Arial, Verdana, sans-serif !important;
+  text-transform: none;
+}
+@media (max-width: 1050px) {
+  .editor-styles-wrapper .wp-block-cover .wp-block-cover-text,
+  .editor-styles-wrapper .wp-block-cover h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 778px) {
+  .editor-styles-wrapper .wp-block-cover .wp-block-cover-text,
+  .editor-styles-wrapper .wp-block-cover h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.text-big,
+.dt-accordion-text-big .wpb_accordion_header > a {
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-normal,
+.dt-accordion-text-normal .wpb_accordion_header > a {
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-small,
+.dt-accordion-text-small .wpb_accordion_header > a {
+  font-size: 16px;
+  line-height: 24px;
+}
+.wp-block-heading h1,
+.wp-block-freeform.block-library-rich-text__tinymce > h1 {
+  font:   800 42px / 52px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: none;
+}
+@media (max-width: 1050px) {
+  .wp-block-heading h1,
+  .wp-block-freeform.block-library-rich-text__tinymce > h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+@media (max-width: 778px) {
+  .wp-block-heading h1,
+  .wp-block-freeform.block-library-rich-text__tinymce > h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.wp-block-heading h2,
+.wp-block-freeform.block-library-rich-text__tinymce > h2 {
+  font:   700 32px / 36px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: none;
+}
+@media (max-width: 1050px) {
+  .wp-block-heading h2,
+  .wp-block-freeform.block-library-rich-text__tinymce > h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 778px) {
+  .wp-block-heading h2,
+  .wp-block-freeform.block-library-rich-text__tinymce > h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+.wp-block-heading h3,
+.wp-block-freeform.block-library-rich-text__tinymce > h3 {
+  font:   600 18px / 24px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: none;
+}
+@media (max-width: 1050px) {
+  .wp-block-heading h3,
+  .wp-block-freeform.block-library-rich-text__tinymce > h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 778px) {
+  .wp-block-heading h3,
+  .wp-block-freeform.block-library-rich-text__tinymce > h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.wp-block-heading h4,
+.wp-block-freeform.block-library-rich-text__tinymce > h4 {
+  font:   600 16px / 22px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: none;
+}
+@media (max-width: 1050px) {
+  .wp-block-heading h4,
+  .wp-block-freeform.block-library-rich-text__tinymce > h4 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 778px) {
+  .wp-block-heading h4,
+  .wp-block-freeform.block-library-rich-text__tinymce > h4 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+.wp-block-heading h5,
+.wp-block-freeform.block-library-rich-text__tinymce > h5 {
+  font:   600 16px / 22px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: none;
+}
+.wp-block-heading h6,
+.wp-block-freeform.block-library-rich-text__tinymce > h6 {
+  font:   500 12px / 20px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: none;
+}
+.editor-styles-wrapper .wp-block .wp-block-button .wp-block-button__link {
+  font:   700 16px / 18px "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
