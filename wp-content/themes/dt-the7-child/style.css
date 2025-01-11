@@ -1,0 +1,821 @@
+/*
+Theme Name: the7dtchild
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: The7 is perfectly scalable, performance and SEO optimized, responsive, retina ready multipurpose WordPress theme. It will fit every site – big or small. From huge corporate portals to studio or personal sites – The7 will become a great foundation for your next project!
+Version: 1.0.0
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+Template: dt-the7
+*/
+
+.acordeon-home .vc_tta-panel.vc_active .vc_tta-panel-heading,
+.acordeon-home .vc_tta-panel .vc_tta-panel-heading {
+    background-color: transparent !important;
+    border-bottom: 2px #fff dotted !important;
+}
+
+.acordeon-home .vc_tta-panel-heading .vc_tta-panel-title {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.acordeon-home .vc_tta-panel-body p {
+    color: #ffffff !important;
+}
+
+.contact-info li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.contact-info li i {
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+.contact-info li a {
+    text-decoration: none !important;
+}
+
+footer .soc-ico a span {
+    color: #ffffff !important;
+    font-size: 20px !important;
+}
+
+footer .soc-ico a:hover span {
+    color: #6f9aff !important;
+}
+
+.footer .soc-ico a:before,
+.footer .soc-ico a:after {
+    display: none;
+}
+
+footer .soc-ico a {
+    width: 33px;
+}
+
+footer .soc-ico {
+    margin-top: 25px;
+}
+
+footer .custom-menu li a::before {
+    background-color: transparent !important;
+}
+
+.wpcf7 div .pasicon {
+    position: absolute;
+    color: #000000;
+    z-index: 100;
+    font-size: 18px;
+    top: 14px;
+    left: 35px;
+}
+
+.wpcf7 .wpcf7-text,
+.wpcf7 .wpcf7-textarea,
+.wpcf7-number {
+    text-indent: 35px;
+}
+
+.wpcf7-date {
+    text-indent: 20px;
+}
+
+.bg-agencia .vc_column-inner {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-info li a:hover {
+    color: #6f9aff;
+}
+
+.serviciosul ul {
+    margin-bottom: 35px;
+}
+
+.masthead .top-bar .mini-widgets>* {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mini-search a.submit {
+    width: 44px;
+    height: 44px;
+    line-height: 46px !important;
+    background-color: #5163e4 !important;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+    border: solid 2px #5163e4 !important;
+}
+
+.mini-search a.submit:hover {
+    background-color: transparent !important;
+    border: solid 2px #ffffff !important;
+}
+
+.mini-search a.submit i {
+    font-size: 14px;
+}
+
+.contacinfo .aio-icon-description {
+    margin-top: 0px !important;
+}
+
+.cerrarsearch {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product .woo-buttons-on-img {
+    border: solid 1px #ddd;
+    background-color: #ffffff;
+    transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+    -ms-transition: all ease-out 0.5s;
+}
+
+.botoncotizar {
+    margin-top: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.botoncotizar span {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 12px 45px;
+    border: solid 2px #5163e4;
+    color: #5163e4;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+    -ms-transition: all ease-out 0.5s;
+}
+
+.botoncotizar span:hover {
+    background-color: #5163e4;
+    color: #ffffff;
+}
+
+.formcotizar {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+}
+
+.cerrarbg {
+    position: absolute;
+    background: rgb(81 99 228 / 95%);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.contform {
+    width: 600px;
+    background-color: #ffffff;
+    margin: auto;
+    left: 0;
+    right: 0;
+    /*margin-top: 3%;*/
+    z-index: 2;
+    position: relative;
+    padding: 35px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.grupocoti {
+    position: relative;
+    width: 48%;
+    float: left;
+    display: inline-block;
+}
+
+.grupocoti2 {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.emailcoti,
+.cantidadcoti {
+    margin-left: 4%;
+}
+
+.wpcf7 div.grupocoti .pasicon {
+    position: absolute;
+    color: #000000;
+    z-index: 100;
+    font-size: 18px;
+    top: 14px;
+    left: 22px;
+}
+
+.wpcf7 div.grupocoti2 .pasicon {
+    position: absolute;
+    color: #000000;
+    z-index: 100;
+    font-size: 18px;
+    top: 14px;
+    left: 22px;
+}
+
+.tituloform {
+    font-family: "Montserrat";
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #5163e4;
+}
+
+.tituloform span {
+    display: inline-block;
+    width: 100%;
+    font-weight: 200;
+    text-transform: initial;
+    font-size: 26px;
+    color: #0c1016;
+}
+
+.cerrar1 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #5163e4;
+    border: solid 2px #5163e4;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+    -ms-transition: all ease-out 0.5s;
+}
+
+.cerrar1:hover {
+    color: #5163e4;
+    background-color: transparent;
+}
+
+.cotizarform {
+    margin-bottom: 20px;
+}
+
+.enviar-formcoti {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.enviar-formcoti input {
+    display: inline-block;
+}
+
+.enviar-formcoti .ajax-loader {
+    position: absolute;
+    margin-top: 8px;
+    top: 0;
+    right: 0;
+}
+
+.popup-message-style #page .wpcf7-response-output {
+    position: initial;
+}
+
+.woocom-list-content a.button.product_type_simple {
+    display: none;
+}
+
+.productoshome article figure figcaption .woo-buttons a {
+    background-color: #5163e4;
+    color: #ffffff;
+    border-color: #5163e4;
+}
+
+.productoshome article figure figcaption .woo-buttons a:hover {
+    background-color: #ffffff;
+    color: #5163e4;
+    border-color: #ffffff;
+}
+
+.woocommerce-product-gallery .flex-viewport,
+.woocommerce-product-gallery .woocommerce-product-gallery__wrapper {
+    border: solid 1px #5163e4;
+}
+
+.woocommerce-product-gallery .flex-viewport .woocommerce-product-gallery__wrapper {
+    border: none !important;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li {
+    width: 17%;
+    border: solid 1px #5163e4;
+    margin-right: 5px;
+}
+
+.woocommerce div.product div.summary h1 {
+    text-transform: uppercase;
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger {
+    background: #5163e4;
+    box-sizing: content-box;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: none;
+}
+
+.woocommerce-product-gallery:hover .woocommerce-product-gallery__trigger {
+    display: block !important;
+}
+
+.woocommerce .wf-container-main .switcher-wrap {
+    display: none;
+}
+
+.products .product:hover .woo-buttons-on-img {
+    border: solid 1px #5163e4;
+}
+
+.btn-gracias {
+    text-align: center;
+}
+
+.btn-gracias a {
+    display: inline-block;
+    max-width: 220px;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    border: solid 2px #5163e4;
+    color: #5163e4;
+    margin: 7px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-decoration: none;
+    transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+    -ms-transition: all ease-out 0.5s;
+}
+
+.btn-gracias a:hover {
+    background-color: #5163e4;
+    color: #ffffff;
+}
+
+.woo-buttons .add_to_cart_button {
+    display: none !important;
+}
+
+.dfd-download-buttons .direct-free-download-button {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 0 38px;
+}
+
+.dfd-download-buttons .direct-free-download-button::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1c1";
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.widget h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.footer .widget-title {
+    letter-spacing: 1px;
+}
+
+.product_list_widget img,
+.recent-posts .alignleft img {
+    border: 1px solid #5163e4;
+    box-sizing: border-box;
+}
+
+.widget-info img {
+    max-width: 100%;
+}
+
+.footer .widget {
+    margin-bottom: 60px;
+}
+
+.right-widgets .mini-button {
+    margin-right: -50px !important;
+}
+
+.titulos h4 {
+    letter-spacing: 1px;
+}
+
+.icons-home {
+    border: solid 2px #000000;
+    padding-bottom: 25px;
+    padding-top: 12px;
+}
+
+.icons-home h3.aio-icon-title {
+    margin: 15px 0 15px !important;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.icons-home .aio-icon-top {
+    padding: 5px 0;
+}
+
+.icons-home:hover h3.aio-icon-title,
+.icons-home:hover .aio-icon-top .aio-icon {
+    color: #ffffff !important;
+}
+
+.icons-home:hover {
+    border-color: #5163e4;
+    background-color: #5163e4;
+}
+
+.icons-home.iconalquiler {
+    border-color: #000000;
+}
+
+.icons-home.iconalquiler:hover {
+    border-color: #5163e4;
+}
+
+.areas-icons {
+    border: solid 1px #c1c1c1;
+    padding: 45px 0 25px 0;
+    border-radius: 25px;
+}
+
+.areas-icons .aio-icon-top .aio-icon-img {
+    overflow: hidden;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.areas-icons h3.aio-icon-title {
+    letter-spacing: 1px;
+}
+
+.areas-icons.areas2 {
+    margin-top: 80px;
+}
+
+.areas-icons:hover {
+    border: solid 1px #5163e4;
+    background-color: #5163e4;
+}
+
+.areas-icons:hover h3.aio-icon-title {
+    color: #ffffff;
+}
+
+.foo-icos1 {
+    display: inline-block;
+    float: left;
+    font-size: 100px;
+    padding-right: 7px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.foo-icos2 {
+    display: inline-block;
+    float: left;
+    font-size: 100px;
+    padding-right: 0px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.foo-icos3 {
+    display: inline-block;
+    float: left;
+    font-size: 100px;
+    padding-right: 15px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.foo-icos4 {
+    display: inline-block;
+    float: left;
+    font-size: 32px;
+    padding-right: 15px;
+    margin-top: 4px;
+    color: #fff;
+    width: 38px;
+    text-align: center;
+}
+
+footer .widget-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+footer img {
+    margin-bottom: 25px !important;
+}
+
+footer .custom-html-widget p {
+    line-height: 28px;
+}
+
+.vinetassrs ul li {
+    color: #fff;
+}
+
+.serviciosrs h2 {
+    background-color: #5163e4;
+    padding: 15px 0 !important;
+}
+
+.enviar-form {
+    margin-top: 10px;
+}
+
+.list-elegirnos h3 {
+    letter-spacing: 1px;
+}
+
+.pswp__caption h5 {
+    display: none;
+}
+
+.youtubemodal .ult_modal-content {
+    box-shadow: none !important;
+}
+
+.servicios {
+    overflow: hidden;
+    border-radius: 13px;
+    padding-bottom: 45px;
+    margin-bottom: 20px !important;
+    margin-top: 20px;
+    box-shadow: 0px 1px 15px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 1px 15px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 15px 2px rgba(0, 0, 0, 0.3);
+}
+
+.servicios:hover {
+    box-shadow: 0px 1px 15px 2px rgba(45, 56, 135, 0.6);
+    -webkit-box-shadow: 0px 1px 15px 2px rgba(45, 56, 135, 0.6);
+    -moz-box-shadow: 0px 1px 15px 2px rgba(45, 56, 135, 0.6);
+}
+
+.servicios .aio-icon-header,
+.servicios .aio-icon-description {
+    padding: 0 35px;
+}
+
+.exportacion .aio-icon-title {
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+.exportacion .aio-icon-description {
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-top: 15px !important;
+    text-transform: uppercase;
+}
+
+.flecha1::before {
+    content: url(../../uploads/2022/05/expo1.png);
+    position: absolute;
+    right: -40px;
+    top: 25px;
+}
+
+.flecha2::before {
+    content: url(../../uploads/2022/05/expo2.png);
+    position: absolute;
+    right: -40px;
+    top: 25px;
+}
+
+.areatrab select,
+.puesto-trabajo select {
+    padding-left: 35px;
+}
+
+.cvitae input {
+    line-height: 45px;
+    width: 100%;
+    padding-left: 35px;
+    box-sizing: border-box;
+    color: #5163e4;
+    transition: all ease-in 1s;
+    -webkit-transition: all ease-in 1s;
+    -o-transition: all ease-in 1s;
+    -ms-transition: all ease-in 1s;
+}
+
+.cvitae:hover input {
+    background-image: url(../../uploads/2022/05/bg-puntos.png);
+}
+
+.bolsa-trabajo label {
+    font-weight: 500 !important;
+    font-family: "Montserrat";
+    color: #000;
+}
+
+.bolsa-trabajo input,
+.bolsa-trabajo textarea,
+.bolsa-trabajo .choices__inner {
+    border-radius: 0 !important;
+    border: 1px solid #000 !important;
+}
+
+.bolsa-trabajo .choices__inner {
+    min-height: 45px !important;
+}
+
+.bolsa-trabajo div.wpforms-uploader {
+    border: 1px dashed #5163e4 !important;
+    background: #f7f8ff !important;
+}
+
+.bolsa-trabajo .dz-message svg {
+    fill: #5163e4;
+    opacity: 0.9;
+}
+
+.bolsa-trabajo .dz-message .modern-title {
+    color: #5163e4;
+}
+
+.bolsa-trabajo .wpforms-submit {
+    font-family: "Montserrat";
+    font-weight: 700;
+    background-color: #fff !important;
+    color: #5163e4 !important;
+    border: 2px solid #5163e4 !important;
+    border-radius: 0 !important;
+    padding: 14px 35px !important;
+}
+
+.bolsa-trabajo .wpforms-submit:hover {
+    background-color: #5163e4 !important;
+    color: #fff !important;
+}
+
+.bolsa-trabajo .dz-preview .dz-image {
+    border: 1px solid #5163e4 !important;
+}
+
+.bolsa-trabajo .dz-preview .dz-details .dz-size,
+.bolsa-trabajo .dz-preview .dz-details .dz-filename {
+    color: #5163e4 !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label,
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+    white-space: normal !important;
+}
+
+@media (max-width: 1024px) {
+    .flecha1::before {
+        display: none;
+    }
+    .flecha2::before {
+        display: none;
+    }
+}
+
+@media (max-width: 778px) {
+    .contform {
+        width: 500px;
+    }
+    .page-title.overlay-bg .wf-wrap {
+        display: none;
+    }
+    .mini-search a.submit {
+        width: 35px;
+        height: 35px;
+        line-height: 35px !important;
+        margin-left: 25px;
+    }
+    .mini-search a.submit i {
+        font-size: 14px !important;
+    }
+    .overlay-search-microwidget>i {
+        top: 30px;
+        right: 20px;
+        font-size: 20px;
+    }
+    .areas-icons.areas2 {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contform {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contform {
+        padding: 25px;
+    }
+    .cerrar1 {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        right: 10px;
+        top: 10px;
+        font-size: 12px;
+    }
+    .tituloform {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .tituloform span {
+        font-size: 16px;
+    }
+    .grupocoti {
+        width: 100%;
+    }
+    .emailcoti,
+    .cantidadcoti {
+        margin-left: 0%;
+    }
+    .popup-message-style #page .formcotizar .wpcf7-response-output {
+        margin-top: 10px;
+    }
+    .formcotizar .wpcf7-response-output .wpcf7-not-valid-tip-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .enviar-formcoti {
+        margin-top: 10px;
+    }
+    .enviar-formcoti .ajax-loader {
+        margin-top: 12px;
+        margin-right: 33px;
+    }
+}
+
+@media (min-width: 778px) {
+    footer .widget_presscore-custom-menu-one {
+        padding-left: 75px !important;
+    }
+}
